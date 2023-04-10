@@ -5114,3 +5114,7 @@ table {
         height: auto
     }
 }
+
+.img-pad-bottom{
+    padding-bottom: 40px;
+}

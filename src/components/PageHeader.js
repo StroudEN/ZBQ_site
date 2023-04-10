@@ -35,7 +35,7 @@ function PageHeader() {
                             </div>
                         </div>
                         <a href="https://www.placeholderaddress.com" className="site-branding">
-                            <img className="img-responsive" src='./assets/milfords.png'></img>
+                            <img className="img-responsive img-pad-bottom" src='./assets/milfords.png'></img>
                         </a>
                         <div className="header-info-wrapper hidden-xxs hidden-xs">
                             <div className="header-info header-info-right pull-right">
