@@ -12,11 +12,9 @@ function PageHeader() {
                             <ul id='menu-main-menu-1' className="menu">
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-127">
                                     <a href="https://www.placeholderaddress.com/about">About</a>
-                                    <span className="menu-arrow"></span>
                                 </li>
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-128">
                                     <a href="https://www.placeholderaddress.com/menu">Menu</a>
-                                    <span className="menu-arrow"></span>
                                 </li>
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-250">
                                     <a href="https://www.placeholderaddress.com/maps">Maps & Directions</a>
