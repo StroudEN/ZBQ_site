@@ -1632,7 +1632,8 @@ table {
 .site-branding-small {
     display: inline-block;
     float: none;
-    margin-top: 55px
+    margin-top: 1px
+
 }
 
 .site-branding-small img {
@@ -1720,6 +1721,7 @@ table {
 
 .header-bottom {
     height: 108px;
+    max-height: fit-content;
     background-image: url(../img/header-bg.jpg);
     background-size: cover;
     background-position: center;
