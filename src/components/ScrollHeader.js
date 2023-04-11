@@ -20,7 +20,8 @@ function ScrollHeader() {
     window.addEventListener('scroll', changeNavbar);
 
     return(
-        <div className={navbar?"header-fixed active":"header-fixed"}>
+        <div>
+            <div className={navbar?"header-fixed active":"header-fixed"}>
                     <div className="header-top">
                     {/* <div className={navbar?'navbar active':'navbar'}> */}
                         <div className="container">
@@ -63,6 +64,7 @@ function ScrollHeader() {
                         </div>
                     </div>
                 </div>
+            </div>
     )
 }
 
