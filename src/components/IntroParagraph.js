@@ -1,5 +1,6 @@
 import React from 'react';
 import background from '../assets/bricks.jpg'
+import sandwichwrap from '../assets/sandwichwrap.jpg'
 
 function IntroParagraph() {
     return(
@@ -8,7 +9,7 @@ function IntroParagraph() {
             <div className="container">
 
                 <div className="company-intro-content">
-                    <div className="company-intro-img visible-sm visible-xs visible-xxs" styles="background-image: url('https://www.milfordsonthird.com/content/uploads/2016/11/iStock-509633936_products_sandwich.jpg');"></div>
+                    <div className="company-intro-img visible-sm visible-xs visible-xxs" style={{backgroundImage:`url(${sandwichwrap})`}}></div>
                     <div className="company-intro-desc">
                         <h2>Welcome to Milford's on Third</h2>
                         <p></p>
@@ -19,7 +20,7 @@ function IntroParagraph() {
                         <a href='website.com/menus' className="green-btn">View our menu</a>
                         <div className="company-intro-img hidden-sm hidden-xs hidden-xxs" styles="background-image: url('https://www.milfordsonthird.com/content/uploads/2016/11/iStock-509633936_products_sandwich.jpg');"></div>
                     </div>
-
+                    <div class="company-intro-img hidden-sm hidden-xs hidden-xxs" style={{backgroundImage:`url(${sandwichwrap})`}}></div>
                 </div>
             </div>
         </div>
