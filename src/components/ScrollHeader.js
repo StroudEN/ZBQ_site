@@ -8,7 +8,6 @@ function ScrollHeader() {
     const [navbar, setNavbar] = useState(false)
 
     const changeNavbar=()=>{
-        console.log(window.scrollY);
         if(window.scrollY >= 300) {
                 setNavbar(true) 
             } else {
